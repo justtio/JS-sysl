@@ -1,0 +1,41 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add @babel/preset-env --save-dev
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  10.15.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/Users/levi/Library/Caches/Yarn/v6/npm-is-extendable-1.0.1-a7470f9e426733d81bd81e1155264e3a3507cab4-integrity/node_modules/is-extendable/index.d.ts' -> '/Users/levi/Desktop/newstart/JS/practice-demo/lit-prac/node_modules/micromatch/node_modules/is-extendable/index.d.ts'
+
+npm manifest: 
+  {
+    "name": "lit-prac",
+    "version": "1.0.0",
+    "description": "",
+    "main": "sandbox.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@babel/cli": "^7.7.4",
+      "@babel/core": "^7.7.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
